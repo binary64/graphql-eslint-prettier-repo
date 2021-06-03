@@ -1,4 +1,4 @@
-export    const quqery = /* GraphQL */ `
+export const quqery = /* GraphQL */ `
   query GetUser($userId: ID!) {
     user(id: $userId) {
       id
